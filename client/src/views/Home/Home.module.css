@@ -1,0 +1,22 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.HomeBackground{
+  background-image: url(../assets.img/fondo-pasto.jpg);
+  padding-top: 80px; 
+  background-size: cover;
+  background-attachment: fixed;
+  height: calc(100vh - 80px);
+} 
+
+.PaginationOrdenContainer {
+  display: flex;
+  width: 98%;
+  margin-left: 1%;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 0.5%;
+}

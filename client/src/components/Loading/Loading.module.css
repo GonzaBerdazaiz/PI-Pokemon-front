@@ -1,0 +1,38 @@
+.loading {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  width: 200px;
+  height: 200px;
+}
+.container{
+  background-image: url(../../views/assets.img/fondo-pasto.jpg);
+  padding-top: 80px; 
+    background-size: cover;
+    background-attachment: fixed;
+    height: calc(100vh - 80px);
+}
+
+/* h1{
+  position: absolute;
+  top:62%;
+  left:25%;
+  color: white;
+} */
+
+.Loader{
+  border: 16px solid #f3f3f3; /* Light grey */
+  position: absolute;
+  top:45%;
+  left:40%;
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  animation: spin 2s linear infinite;
+}
+  
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

@@ -1,0 +1,222 @@
+.PageContainer {
+    padding-top: 80px;
+    background-image: url("../assets.img/lab2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: calc(100vh - 80px);
+  }
+    
+.Title {
+    position:absolute;
+    left:3.5%;
+    top: 20%;
+    width: 300px;
+    font-size: 18px;
+    text-align: center;
+    color: #2f3237;
+    background-color: white;
+    height: 100px;
+    text-align: center;
+    padding: 15px;
+    padding-top: 30px;;
+    border: 6px solid black;
+    border-style: double;
+}
+
+img{
+    position:absolute;
+    top: 18%;
+    left: 29%;
+    height: 220px;
+}
+img[id="bola1"]{
+    position:absolute;
+    left:1.8%;
+    top: 21%;
+    height: 30px;
+}
+img[id="bola2"]{
+    position:absolute;
+    left:1.8%;
+    top: 45.5%;
+    height: 30px;
+}
+img[id="bola3"]{
+    position:absolute;
+    left:28.3%;
+    top: 21%;
+    height: 30px;
+}
+img[id="bola4"]{
+    position:absolute;
+    left:28.3%;
+    top: 45.5%;
+    height: 30px;
+}
+img[id="gifPokebola"]{
+    position:absolute;
+    left:18%;
+    top: 80%;
+    height: 100px;
+}
+
+.Container {
+    position: absolute;
+    top: 14.5%;
+    left: 48%;
+    background-image: url("../assets.img/pokedex.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 1px 1px rgba(140,104,104,1);
+    top: 5;
+    border: 1px solid black;
+    width: 260px;
+    height: 510px;
+}
+
+.NameTextContainer{
+    position: relative;
+    top:21%;
+    left:1%;
+    display: flex;
+    flex-direction: row;
+}
+
+label {
+    color:rgba(234,213,0,255);
+    font-size: 12px;
+    margin-left: 2px;
+    text-align: left;
+}
+  
+input[name="name"] {
+    background-color: transparent;
+    color:rgba(234,213,0,255);
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-size: 12px;
+    margin-left: 8px;
+    width: 50%;
+}
+
+.StatsContainer{
+    position: relative;
+    top:29%;
+    height: 60px;
+    width: 165px;
+    margin-left: 45px;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input[type="integer"] {
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    font-size: 12px;
+    width: 30px;
+}
+
+.ImageTextContainer{
+    position: relative;
+    background-color: transparent;
+    top:44%;
+    left:1%;
+    display: flex;
+    flex-direction: row;
+}
+
+input[name="image"] {
+    background-color: transparent;
+    color:rgba(234,213,0,255);
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-size: 12px;
+    margin-left: 8px;
+    width: 50%;
+}
+
+.TypesContainer{
+    position: absolute;
+    top: 70%;
+    left: 1%;
+    width: 141px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+.LabelType{
+    position: relative;
+    top:40%;
+    left:10%;
+}
+.typesHandler{
+    position: relative;
+    top: 54.8%;
+    /* top: 51.5%; */
+    left: 4.5%;
+    height: 12.4%;
+    /* height: 12.5%; */
+    width: 34.5%;
+    outline: none;
+    background-color: transparent;
+    font-size: 12px;
+    border: none;
+}
+input[name="types"]{
+    position: relative;
+    top: 120%;
+    height: 20%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    color:rgba(234,213,0,255);
+    outline: none;
+    font-size: 12px;
+}
+
+select[id="types"]{
+    width: 87px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.FormButton {
+    position: relative;
+    left: -18%;
+    top:65%;
+    background-color: rgba(39,39,41,255);
+    box-shadow: 2px 2px 2px 1px #2f3237;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 14px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 30%;
+    margin-top: 5px;
+  }
+  
+.FormButton:hover {
+    scale: 1.2;
+    color: white;
+    transition: 0.5s ease;
+    cursor: pointer;
+  }
+
+.ErrorValidation{
+    position: relative;
+    top: 53%;
+    left: 105%;
+    width: 370px;
+    font-size: 13px;
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,91 @@
+.navContainer {
+  display: flex;
+  position: fixed; /* Para fijar el NavBar */
+  top: 0; /* Con esto lo fijamos en la posicion 0 */
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  height: 80px;
+  width: 100%;
+  border-bottom: 2px solid silver;
+  z-index:1
+}
+
+.leftSection {
+  display: flex;
+  align-items: center;
+} 
+
+.image {
+  background-image: url("https://www.pngall.com/wp-content/uploads/4/Pokemon-Pokeball-PNG-Download-Image.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left:10px;
+}
+
+.LeftContainer {
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+  color: #333;
+  padding: 30px;
+  transition: color 0.5s ease;
+}
+
+.link:hover {
+  background-color: rgba(246,165,86,255);
+  transition: color 0.5s ease;
+  color: white;
+}
+
+.middleSection{
+  width: 25%;
+}
+
+.RightContainer{
+  display: flex;
+  align-items: center;
+}
+
+.About {
+  text-decoration: none;
+  margin-right: 20px;
+  color: #333;
+  padding: 30px;
+  transition: color 0.5s ease;
+}
+.About:hover {
+  background-color: rgba(246,165,86,255);
+  transition: color 0.5s ease;
+  color: white;
+}
+
+
+img[id="gifPikachu"]{
+  position: absolute;
+  left: 91%;
+  top: -1%;
+  height: 95%;
+}
+
+.link[id="home"]:hover{
+  background-image: url("../assets.img/charmander.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.link[id="create"]:hover{
+  background-image: url("../assets.img/squirtle.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.About[id="about"]:hover{
+  background-image: url("../assets.img/bullbasaur.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
