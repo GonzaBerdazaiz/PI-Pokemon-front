@@ -1,4 +1,5 @@
 import style from "./Paginacion.module.css";
+import {ArrowLeftIcon, ArrowBackIcon, ArrowForwardIcon, ArrowRightIcon} from '@chakra-ui/icons';
 import React from 'react';
 
 const Pagination = ({
@@ -63,26 +64,26 @@ const Pagination = ({
           className={`${style.paginationItemFirst} ${currentPage === 1 ? style.disabled : ''}`} 
           onClick={handleFirstPage}
         >
-          First
+          <ArrowLeftIcon className={style.IconPagination}/>
         </li>
         <li
           className={`${style.paginationItem} ${currentPage === 1 ? style.disabled : ''}`} 
           onClick={handlePrevious}
         >
-          Prev
+          <ArrowBackIcon className={style.IconPagination}/>
         </li>
         {renderPageNumbers()}
         <li
           className={`${style.paginationItem} ${currentPage === pageNumbers ? style.disabled : ''}`}
           onClick={handleNext}
         >
-          Next
+          <ArrowForwardIcon className={style.IconPagination}/>
         </li>
         <li
           className={`${style.paginationItem} ${currentPage === pageNumbers ? style.disabled : ''}`}
           onClick={handleLastPage}
         >
-          Last
+          <ArrowRightIcon className={style.IconPagination}/>
         </li>
       </ul>
     </div>

@@ -2,7 +2,7 @@
     position: relative;
     display: flex;
     justify-content: space-evenly;
-    width: 50%;
+    width: 40%;
     height: 5%; 
     margin-right: 13%;
 }
@@ -16,19 +16,19 @@
 }
 
 li{
-    width: 11%;
-    border: 3px solid silver;
-    /* border-top: 3px solid rgba(242,211,32,255);
-    border-bottom: 3px solid rgba(242,211,32,255); */
-    background-color: white;
-    /* background-color: rgba(183,191,204,255); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9%;
+    /* border: 3px solid silver;
+    background-color: white; */
     cursor: pointer;
     color: black;
 }
 
 .active {
     background-color:rgba(246,165,86,255);
-    scale: 1.2;
+    scale: 1.1;
     color: white;
 }
 
@@ -37,6 +37,6 @@ li{
     opacity: 0.7;
 }
 
-.paginationItemFirst{
-   
+.IconPagination{
+    margin: auto;
 }
