@@ -9,7 +9,7 @@ export const ORDER_POKEMON = "ORDER_POKEMON";
 export const FILTER_BY_SOURCE = "FILTER_BY_SOURCE"
 
 // const url = "http://localhost:3001";
-const url = "https://serv-pokemon.onrender.com/";
+const url = "https://serv-pokemon.onrender.com";
 
 export const getAllPokemons = () => {
     return async (dispatch) =>{ // el dispatch es para llegar al reducer

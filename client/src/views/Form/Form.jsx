@@ -51,7 +51,7 @@ const Form = () =>{
     }, [dispatch]);
 
     // const url = "http://localhost:3001";
-    const url = "https://serv-pokemon.onrender.com/";
+    const url = "https://serv-pokemon.onrender.com";
     const submitHandler = (event) => {
         event.preventDefault(); 
         axios.post(`${url}/pokemon`, form)
