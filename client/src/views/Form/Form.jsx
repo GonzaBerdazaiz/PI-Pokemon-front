@@ -50,9 +50,11 @@ const Form = () =>{
         dispatch(getAllTypes());
     }, [dispatch]);
 
+    // const url = "http://localhost:3001";
+    const url = "https://serv-pokemon.onrender.com/";
     const submitHandler = (event) => {
         event.preventDefault(); 
-        axios.post("http://localhost:3001/pokemon", form)
+        axios.post(`${url}/pokemon`, form)
         .then(res=>dispatch(getAllPokemons()))
         .catch(err=>alert(err))
         navigate("/home");
