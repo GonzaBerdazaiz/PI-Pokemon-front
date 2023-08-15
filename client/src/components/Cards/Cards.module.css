@@ -1,4 +1,4 @@
-.CardsContainer{
+/* .CardsContainer{
     display: flex;
     margin-left: 10%;
     flex-wrap: wrap;
@@ -7,4 +7,46 @@
     width: 80%;
     height: fit-content;
     background-color: transparent;
+} */
+
+.GridSixColumns{
+    display: Grid;
+    gap: 1rem;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 0 100px;
+  }
+
+
+  
+@media (max-width: 1250px) {
+    .GridSixColumns {
+        display: Grid;
+        gap: 1rem;
+        grid-template-columns: repeat(5, 1fr);
+        margin: 0 80px;
+    }
+}
+@media (max-width: 1050px) {
+    .GridSixColumns {
+        display: Grid;
+        gap: 1rem;
+        grid-template-columns: repeat(4, 1fr);
+        margin: 0 60px;
+    }
+}
+@media (max-width: 840px) {
+    .GridSixColumns {
+        display: Grid;
+        gap: 1rem;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 40px;
+    }
+}
+@media (max-width: 700px) {
+    .GridSixColumns {
+        display: Grid;
+        gap: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 20px;
+    }
 }

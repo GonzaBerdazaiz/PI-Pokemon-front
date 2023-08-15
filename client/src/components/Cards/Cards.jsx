@@ -4,7 +4,7 @@ import style from "./Cards.module.css";
 const Cards = ({ pokemons }) => {   //nos traemos x props los pokemons del currentPage
 
     return (
-        <div className={style.CardsContainer}> 
+        <div className={style.GridSixColumns}> 
             {pokemons.length > 0 && pokemons?.map((poke) => {
             return (
                 <Card

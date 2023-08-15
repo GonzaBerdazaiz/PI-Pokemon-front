@@ -14,10 +14,10 @@ const Contacto = () =>{
             </section>
             <section className={style.descriptionAboutContainer}>
                 <h2 className={style.AboutMe}>About me...</h2>
-                <p className={style.DescriptionAbout}>Hi! My name is Gonzalo Berdazaiz. I'm an Industrial engineer with 6 years of experience in Management Control. Currently studying to be a Full Stack Developer in Henry.</p>
+                <p className={style.DescriptionAbout}>Hi! My name is Gonzalo Berdazaiz. I am an Industrial engineer with 6 years of experience in Management Control. Currently studying to be a Full Stack Developer in Henry.</p>
             </section>
             <section className={style.ContactContainer}>
-                <h2 className={style.Contact}>Contact</h2>
+                <h2 className={style.Contact}>How to contact me</h2>
                 <div className={style.LinkedinContainer}>
                     <a href="https://www.linkedin.com/in/gonzalo-berdazaiz"><img src="https://w7.pngwing.com/pngs/690/244/png-transparent-computer-icons-linkedin-logo-insta-miscellaneous-angle-text-thumbnail.png" alt="Linkedin" className={style.Linkedin}></img></a>
                     <div className={style.PhoneContainer}>

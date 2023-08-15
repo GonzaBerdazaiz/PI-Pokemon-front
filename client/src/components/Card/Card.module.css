@@ -1,15 +1,19 @@
+.CardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(152px, 1fr)); /* Cambiar 152px al ancho deseado */
+  width: 150px;
+}
+
 .CardContainer {
+  background-image: url("../assets.img/Card.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 210px;
+  transition: 0.5s ease;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  background-image: url("../assets.img/Card.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 152px;
-  height: 210px;
-  padding: 1px;
-  margin-bottom: 20px;
-  transition: 0.5s ease;
+  margin-bottom: 14px;
 }
 .CardContainer:hover{
   scale: 1.07;

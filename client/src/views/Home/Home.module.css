@@ -6,10 +6,10 @@ body, html {
 
 .HomeBackground{
   background-image: url(../assets.img/fondo-pasto.jpg);
-  padding-top: 80px; 
   background-size: cover;
   background-attachment: fixed;
-  height: calc(100vh - 80px);
+  padding-top: 80px; 
+  height: calc(200vh - 80px);
 } 
 
 .PaginationOrdenContainer {
