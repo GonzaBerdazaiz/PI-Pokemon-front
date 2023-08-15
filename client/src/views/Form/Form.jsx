@@ -71,7 +71,7 @@ const Form = () =>{
             ) : (
             <>
                 <div className={style.PageContainer}>
-                    <p className={style.Title}> Hola! En esta seccion podremos crear un nuevo Pokemon. Por favor, ingresa los datos requeridos en la Pokedex</p>
+                    <p className={style.Title}> Hi! In this section, we will be able to create a new Pokemon. Please enter the required data in the Pokedex.</p>
                     <img src="https://www.safarizone.sqwordle.io/static/media/prof-oak-3.a83cb5bb65a9b3d1b537.png" alt=""></img>
                     <img src="https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Free-Download.png" id="bola1" alt=""></img>
                     <img src="https://www.pngall.com/wp-content/uploads/4/Pokeball-PNG-Free-Download.png" id="bola2" alt=""></img>
