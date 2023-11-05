@@ -2,16 +2,15 @@
     position: relative;
     display: flex;
     justify-content: space-evenly;
-    width: 40%;
+    width: 200px;
     height: 5%; 
-    margin-right: 13%;
 }
 
 .PaginationList{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 50%;
+    width: 100%;
     list-style: none;   /* con esto sacamos los circulos negros que pertenecen a los elementos li */
 }
 
@@ -40,4 +39,16 @@ li{
 
 .IconPagination{
     margin: auto;
+}
+
+
+
+@media (max-width: 500px) {
+    .PaginationContainer{
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        width: 150px;
+        height: 5%; 
+    }
 }

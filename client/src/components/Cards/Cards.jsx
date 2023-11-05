@@ -1,7 +1,7 @@
 import Card from "../Card/Card";
 import style from "./Cards.module.css";
 
-const Cards = ({ pokemons }) => {   //nos traemos x props los pokemons del currentPage
+const Cards = ({ pokemons }) => {   
 
     return (
         <div className={style.GridSixColumns}> 
@@ -12,7 +12,6 @@ const Cards = ({ pokemons }) => {   //nos traemos x props los pokemons del curre
                 id={poke.id}
                 image={poke.image ? poke.image : 'https://assets.pokemon.com/assets/cms2/img/pokedex/full/201.png'}
                 name={poke.name}
-                // types={poke.types}
                 types={poke.types?.map((v) => v.name).join(' / ')}
                 />
             );

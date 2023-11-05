@@ -44,5 +44,3 @@ const Filter = ({ setCurrentPage }) => {
 }
 
 export default Filter;
-
-

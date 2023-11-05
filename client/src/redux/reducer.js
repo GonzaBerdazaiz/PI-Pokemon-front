@@ -5,7 +5,7 @@ import {GET_ALL_POKEMONS,
     CLEAR_DETAIL, 
     FILTER_TYPE, 
     FILTER_BY_SOURCE,
-    ORDER_POKEMON} from "./actions";
+    ORDER_POKEMON} from "./actions"; 
 
 const initialState = {
     allPokemons: [],

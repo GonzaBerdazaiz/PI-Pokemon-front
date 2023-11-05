@@ -89,3 +89,18 @@ img[id="gifPikachu"]{
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+
+@media (max-width: 1200px) {
+  img[id="gifPikachu"] {
+    display: none; /* Oculta la imagen en pantallas pequeñas */
+  }
+  .image {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .About {
+    display: none;
+  }
+}

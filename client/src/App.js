@@ -8,15 +8,14 @@ import { getAllPokemons, getAllTypes } from "./redux/actions";
 
 function App() {
 
-//HOOKS
-const location = useLocation();
-const dispatch = useDispatch();
+  const location = useLocation();
+  const dispatch = useDispatch();
 
-useEffect(()=>{ //para manejar el ciclo de vida del componente. Cuando se monta useEffect recibe una funcion la q se ejecuta cunado el componente se monta o cambia alguna de las dependencias el array de dependencia
-  dispatch(getAllPokemons())
-  dispatch(getAllTypes())
-},[dispatch])   
-//SECUENCIA: Se monta HOME y eso dispara el useEffect el cual hace el dispatch. eso hace que se ejecute la action creator getAllPokemons la cual retorna la funcion. El thunk middleware agarra la fc la ejecuta, hace el dispatch y la info va al reducer y crea un estado nuevo q es igual al anterior pero con el cambio que le pasamos
+  useEffect(()=>{ //para manejar el ciclo de vida del componente. Cuando se monta useEffect recibe una funcion la q se ejecuta cunado el componente se monta o cambia alguna de las dependencias el array de dependencia
+    dispatch(getAllPokemons())
+    dispatch(getAllTypes())
+  },[dispatch])   
+  //SECUENCIA: Se monta HOME y eso dispara el useEffect el cual hace el dispatch. eso hace que se ejecute la action creator getAllPokemons la cual retorna la funcion. El thunk middleware agarra la fc la ejecuta, hace el dispatch y la info va al reducer y crea un estado nuevo q es igual al anterior pero con el cambio que le pasamos
 
   return (
     <div className={style.App}>

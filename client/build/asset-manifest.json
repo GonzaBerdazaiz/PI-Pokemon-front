@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.250a8bd7.css",
+    "main.js": "/static/js/main.ace68ed4.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/lab2.jpg": "/static/media/lab2.e48c6df862868b9c6c22.jpg",
+    "static/media/bullbasaur.jpg": "/static/media/bullbasaur.ba84f338e01f76a2c6c5.jpg",
+    "static/media/squirtle.jpg": "/static/media/squirtle.fde499f393a2a949710b.jpg",
+    "static/media/fondo-pasto.jpg": "/static/media/fondo-pasto.1c75e0acb2a69364021f.jpg",
+    "static/media/3.jpg": "/static/media/3.16cb4a78e8167b615890.jpg",
+    "static/media/charmander.jpg": "/static/media/charmander.9519670e55dac756e6bd.jpg",
+    "static/media/pokedex.jpg": "/static/media/pokedex.c0a4c625a7369226a20d.jpg",
+    "static/media/Card.jpg": "/static/media/Card.1d031764a31aa487aaa9.jpg",
+    "index.html": "/index.html",
+    "main.250a8bd7.css.map": "/static/css/main.250a8bd7.css.map",
+    "main.ace68ed4.js.map": "/static/js/main.ace68ed4.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.250a8bd7.css",
+    "static/js/main.ace68ed4.js"
+  ]
+}

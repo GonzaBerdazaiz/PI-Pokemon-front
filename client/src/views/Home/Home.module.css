@@ -9,14 +9,12 @@ body, html {
   background-size: cover;
   background-attachment: fixed;
   padding-top: 80px; 
-  height: calc(200vh - 80px);
 } 
 
 .PaginationOrdenContainer {
   display: flex;
-  width: 98%;
-  margin-left: 1%;
+  width: 100%;
   flex-direction: row;
-  justify-content: space-around;
-  padding-bottom: 0.5%;
+  justify-content: space-evenly;
+  padding-bottom: 5px;
 }
